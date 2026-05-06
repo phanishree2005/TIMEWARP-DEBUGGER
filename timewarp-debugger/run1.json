@@ -1,0 +1,134 @@
+[
+  {
+    "time": 0.0067,
+    "event": "call",
+    "function": "<module>",
+    "line": 0,
+    "locals": {}
+  },
+  {
+    "time": 0.0067,
+    "event": "line",
+    "function": "<module>",
+    "line": 1,
+    "locals": {}
+  },
+  {
+    "time": 0.0067,
+    "event": "line",
+    "function": "<module>",
+    "line": 5,
+    "locals": {
+      "hello": "<function hello>"
+    }
+  },
+  {
+    "time": 0.0068,
+    "event": "line",
+    "function": "<module>",
+    "line": 10,
+    "locals": {
+      "hello": "<function hello>",
+      "main": "<function main>"
+    }
+  },
+  {
+    "time": 0.0068,
+    "event": "line",
+    "function": "<module>",
+    "line": 11,
+    "locals": {
+      "hello": "<function hello>",
+      "main": "<function main>"
+    }
+  },
+  {
+    "time": 0.0068,
+    "event": "call",
+    "function": "main",
+    "line": 5,
+    "locals": {}
+  },
+  {
+    "time": 0.0068,
+    "event": "line",
+    "function": "main",
+    "line": 6,
+    "locals": {}
+  },
+  {
+    "time": 0.0068,
+    "event": "line",
+    "function": "main",
+    "line": 7,
+    "locals": {
+      "x": 10
+    }
+  },
+  {
+    "time": 0.0068,
+    "event": "call",
+    "function": "hello",
+    "line": 1,
+    "locals": {
+      "name": "World"
+    }
+  },
+  {
+    "time": 0.0068,
+    "event": "line",
+    "function": "hello",
+    "line": 2,
+    "locals": {
+      "name": "World"
+    }
+  },
+  {
+    "time": 0.0068,
+    "event": "line",
+    "function": "hello",
+    "line": 3,
+    "locals": {
+      "name": "World",
+      "greeting": "Hello, World!"
+    }
+  },
+  {
+    "time": 0.0069,
+    "event": "return",
+    "function": "hello",
+    "line": 3,
+    "locals": {
+      "name": "World",
+      "greeting": "Hello, World!"
+    }
+  },
+  {
+    "time": 0.0069,
+    "event": "line",
+    "function": "main",
+    "line": 8,
+    "locals": {
+      "x": 10
+    }
+  },
+  {
+    "time": 0.0069,
+    "event": "return",
+    "function": "main",
+    "line": 8,
+    "locals": {
+      "x": 20
+    }
+  },
+  {
+    "time": 0.0069,
+    "event": "return",
+    "function": "<module>",
+    "line": 11,
+    "locals": {
+      "hello": "<function hello>",
+      "main": "<function main>"
+    }
+  }
+]

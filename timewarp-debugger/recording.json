@@ -1,0 +1,85 @@
+[
+  {
+    "time": 0.0108,
+    "thread_id": 17804,
+    "event": "call",
+    "function": "<module>",
+    "line": 0,
+    "source": "",
+    "depth": 6,
+    "locals": {}
+  },
+  {
+    "time": 0.0108,
+    "thread_id": 17804,
+    "event": "line",
+    "function": "<module>",
+    "line": 1,
+    "source": "def calculate(a, b):",
+    "depth": 6,
+    "locals": {}
+  },
+  {
+    "time": 0.0108,
+    "thread_id": 17804,
+    "event": "line",
+    "function": "<module>",
+    "line": 4,
+    "source": "print(calculate(20, 5))",
+    "depth": 6,
+    "locals": {
+      "calculate": "<function calculate>"
+    }
+  },
+  {
+    "time": 0.011,
+    "thread_id": 17804,
+    "event": "call",
+    "function": "calculate",
+    "line": 1,
+    "source": "def calculate(a, b):",
+    "depth": 7,
+    "locals": {
+      "a": 20,
+      "b": 5
+    }
+  },
+  {
+    "time": 0.011,
+    "thread_id": 17804,
+    "event": "line",
+    "function": "calculate",
+    "line": 2,
+    "source": "return a + b",
+    "depth": 7,
+    "locals": {
+      "a": 20,
+      "b": 5
+    }
+  },
+  {
+    "time": 0.011,
+    "thread_id": 17804,
+    "event": "return",
+    "function": "calculate",
+    "line": 2,
+    "source": "return a + b",
+    "depth": 7,
+    "locals": {
+      "a": 20,
+      "b": 5
+    }
+  },
+  {
+    "time": 0.011,
+    "thread_id": 17804,
+    "event": "return",
+    "function": "<module>",
+    "line": 4,
+    "source": "print(calculate(20, 5))",
+    "depth": 6,
+    "locals": {
+      "calculate": "<function calculate>"
+    }
+  }
+]
