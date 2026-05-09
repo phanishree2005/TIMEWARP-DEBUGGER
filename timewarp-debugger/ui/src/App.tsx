@@ -24,8 +24,10 @@ function App() {
 
   const activeEventRef = useRef<HTMLDivElement>(null)
 
+  const API_BASE_URL = import.meta.env.VITE_API_URL;
+
   useEffect(() => {
-    fetch('http://localhost:8000/api/events')
+    fetch(`${API_BASE_URL}/api/events`)
       .then(res => res.json())
       .then(data => {
         if (data.error) {
@@ -37,7 +39,7 @@ function App() {
         }
       })
       .catch(err => setError(err.message))
-  }, [])
+  }, [API_BASE_URL])
 
   useEffect(() => {
     if (activeEventRef.current) {
@@ -49,7 +51,7 @@ function App() {
     setIsRunning(true)
     setError(null)
     try {
-      const res = await fetch('http://localhost:8000/api/execute', {
+      const res = await fetch(`${API_BASE_URL}/api/execute`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ code })
